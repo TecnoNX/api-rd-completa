@@ -1,0 +1,139 @@
+const provinces = require('./provinces');
+
+const municipalities = [
+  // Distrito Nacional
+  { id: 1, nombre: 'Santo Domingo', provincia_id: 1, provincia: 'Distrito Nacional', area_km2: 104.44, poblacion: 1019407, coordenadas: { lat: 18.4861, lng: -69.8922 } },
+  
+  // Azua
+  { id: 2, nombre: 'Azua de Compostela', provincia_id: 2, provincia: 'Azua', area_km2: 764.28, poblacion: 139117, coordenadas: { lat: 18.4581, lng: -70.7381 } },
+  { id: 3, nombre: 'Padre Las Casas', provincia_id: 2, provincia: 'Azua', area_km2: 260.55, poblacion: 43231, coordenadas: { lat: 18.4167, lng: -70.8167 } },
+  { id: 4, nombre: 'Charcas', provincia_id: 2, provincia: 'Azua', area_km2: 233.83, poblacion: 13360, coordenadas: { lat: 18.3500, lng: -70.6833 } },
+  
+  // Baoruco
+  { id: 5, nombre: 'Vicente Noble', provincia_id: 3, provincia: 'Baoruco', area_km2: 258.13, poblacion: 25771, coordenadas: { lat: 18.4047, lng: -71.3614 } },
+  { id: 6, nombre: 'Barahona', provincia_id: 3, provincia: 'Baoruco', area_km2: 346.84, poblacion: 82033, coordenadas: { lat: 18.2078, lng: -71.1006 } },
+  { id: 7, nombre: 'Cabral', provincia_id: 3, provincia: 'Baoruco', area_km2: 242.06, poblacion: 20036, coordenadas: { lat: 18.3167, lng: -71.2667 } },
+  
+  // Barahona
+  { id: 8, nombre: 'Santa Cruz de Barahona', provincia_id: 4, provincia: 'Barahona', area_km2: 445.89, poblacion: 194631, coordenadas: { lat: 18.2078, lng: -71.1006 } },
+  { id: 9, nombre: 'Cayetano Germosén', provincia_id: 4, provincia: 'Barahona', area_km2: 315.50, poblacion: 8106, coordenadas: { lat: 18.1167, lng: -71.4833 } },
+  
+  // Dajabón
+  { id: 10, nombre: 'Dajabón', provincia_id: 5, provincia: 'Dajabón', area_km2: 511.67, poblacion: 53397, coordenadas: { lat: 19.5422, lng: -71.7186 } },
+  { id: 11, nombre: 'Líbano', provincia_id: 5, provincia: 'Dajabón', area_km2: 259.43, poblacion: 9951, coordenadas: { lat: 19.6167, lng: -71.5500 } },
+  
+  // Duarte
+  { id: 12, nombre: 'San Francisco de Macorís', provincia_id: 6, provincia: 'Duarte', area_km2: 220.62, poblacion: 304243, coordenadas: { lat: 19.3542, lng: -70.2525 } },
+  { id: 13, nombre: 'Pimentel', provincia_id: 6, provincia: 'Duarte', area_km2: 113.96, poblacion: 28934, coordenadas: { lat: 19.3167, lng: -70.1667 } },
+  { id: 14, nombre: 'Yuna', provincia_id: 6, provincia: 'Duarte', area_km2: 196.59, poblacion: 23672, coordenadas: { lat: 19.4333, lng: -70.3167 } },
+  
+  // Elías Piña
+  { id: 15, nombre: 'Comendador', provincia_id: 7, provincia: 'Elías Piña', area_km2: 465.29, poblacion: 26976, coordenadas: { lat: 18.9500, lng: -71.5667 } },
+  { id: 16, nombre: 'Tamboril', provincia_id: 7, provincia: 'Elías Piña', area_km2: 346.38, poblacion: 17324, coordenadas: { lat: 19.0333, lng: -71.6167 } },
+  
+  // El Seibo
+  { id: 17, nombre: 'Santa Cruz del Seibo', provincia_id: 8, provincia: 'El Seibo', area_km2: 464.02, poblacion: 61958, coordenadas: { lat: 18.8281, lng: -69.0506 } },
+  { id: 18, nombre: 'Miches', provincia_id: 8, provincia: 'El Seibo', area_km2: 550.59, poblacion: 29453, coordenadas: { lat: 18.9167, lng: -68.8167 } },
+  
+  // Espaillat
+  { id: 19, nombre: 'Moca', provincia_id: 9, provincia: 'Espaillat', area_km2: 176.00, poblacion: 146654, coordenadas: { lat: 19.3833, lng: -70.5333 } },
+  { id: 20, nombre: 'Gaspar Hernández', provincia_id: 9, provincia: 'Espaillat', area_km2: 186.27, poblacion: 51068, coordenadas: { lat: 19.5000, lng: -70.5833 } },
+  
+  // Hato Mayor
+  { id: 21, nombre: 'Hato Mayor del Rey', provincia_id: 10, provincia: 'Hato Mayor', area_km2: 483.60, poblacion: 57103, coordenadas: { lat: 18.8281, lng: -69.3506 } },
+  { id: 22, nombre: 'El Valle', provincia_id: 10, provincia: 'Hato Mayor', area_km2: 368.40, poblacion: 26658, coordenadas: { lat: 18.9167, lng: -69.2333 } },
+  
+  // Hermanas Mirabal
+  { id: 23, nombre: 'Salcedo', provincia_id: 11, provincia: 'Hermanas Mirabal', area_km2: 148.46, poblacion: 75306, coordenadas: { lat: 19.3167, lng: -70.3667 } },
+  { id: 24, nombre: 'Tenares', provincia_id: 11, provincia: 'Hermanas Mirabal', area_km2: 145.70, poblacion: 47496, coordenadas: { lat: 19.3833, lng: -70.3333 } },
+  
+  // Independencia
+  { id: 25, nombre: 'Jimaní', provincia_id: 12, provincia: 'Independencia', area_km2: 445.20, poblacion: 26867, coordenadas: { lat: 18.2078, lng: -72.0000 } },
+  { id: 26, nombre: 'Las Matas de Farfán', provincia_id: 12, provincia: 'Independencia', area_km2: 676.93, poblacion: 42217, coordenadas: { lat: 18.2333, lng: -72.1833 } },
+  
+  // La Altagracia
+  { id: 27, nombre: 'Higüey', provincia_id: 13, provincia: 'La Altagracia', area_km2: 1060.59, poblacion: 390115, coordenadas: { lat: 18.8281, lng: -68.6506 } },
+  { id: 28, nombre: 'Río San Juan', provincia_id: 13, provincia: 'La Altagracia', area_km2: 266.61, poblacion: 30182, coordenadas: { lat: 18.9167, lng: -69.0167 } },
+  
+  // La Romana
+  { id: 29, nombre: 'La Romana', provincia_id: 14, provincia: 'La Romana', area_km2: 213.99, poblacion: 224429, coordenadas: { lat: 18.4333, lng: -68.9667 } },
+  { id: 30, nombre: 'Guayacán', provincia_id: 14, provincia: 'La Romana', area_km2: 156.47, poblacion: 24509, coordenadas: { lat: 18.5000, lng: -68.9000 } },
+  
+  // La Vega
+  { id: 31, nombre: 'Concepción de La Vega', provincia_id: 15, provincia: 'La Vega', area_km2: 466.53, poblacion: 122336, coordenadas: { lat: 19.0000, lng: -70.5333 } },
+  { id: 32, nombre: 'Jarabacoa', provincia_id: 15, provincia: 'La Vega', area_km2: 329.81, poblacion: 42142, coordenadas: { lat: 19.1333, lng: -70.7167 } },
+  { id: 33, nombre: 'Constanza', provincia_id: 15, provincia: 'La Vega', area_km2: 672.81, poblacion: 44566, coordenadas: { lat: 19.0833, lng: -70.8167 } },
+  
+  // María Trinidad Sánchez
+  { id: 34, nombre: 'Nagua', provincia_id: 16, provincia: 'María Trinidad Sánchez', area_km2: 350.95, poblacion: 107829, coordenadas: { lat: 19.3167, lng: -69.8333 } },
+  { id: 35, nombre: 'Cabrera', provincia_id: 16, provincia: 'María Trinidad Sánchez', area_km2: 210.87, poblacion: 32207, coordenadas: { lat: 19.4167, lng: -69.6333 } },
+  
+  // Monseñor Nouel
+  { id: 36, nombre: 'Bonao', provincia_id: 17, provincia: 'Monseñor Nouel', area_km2: 388.98, poblacion: 104635, coordenadas: { lat: 18.9333, lng: -70.4667 } },
+  { id: 37, nombre: 'Villa Altagracia', provincia_id: 17, provincia: 'Monseñor Nouel', area_km2: 233.91, poblacion: 43428, coordenadas: { lat: 18.8500, lng: -70.2833 } },
+  
+  // Monte Cristi
+  { id: 38, nombre: 'Monte Cristi', provincia_id: 18, provincia: 'Monte Cristi', area_km2: 447.76, poblacion: 61119, coordenadas: { lat: 19.5422, lng: -70.7186 } },
+  { id: 39, nombre: 'Guayubín', provincia_id: 18, provincia: 'Monte Cristi', area_km2: 581.68, poblacion: 29931, coordenadas: { lat: 19.5833, lng: -71.3500 } },
+  
+  // Monte Plata
+  { id: 40, nombre: 'Monte Plata', provincia_id: 19, provincia: 'Monte Plata', area_km2: 538.29, poblacion: 63952, coordenadas: { lat: 18.7333, lng: -69.7333 } },
+  { id: 41, nombre: 'Yamasá', provincia_id: 19, provincia: 'Monte Plata', area_km2: 430.87, poblacion: 59657, coordenadas: { lat: 18.6833, lng: -69.8333 } },
+  
+  // Pedernales
+  { id: 42, nombre: 'Pedernales', provincia_id: 20, provincia: 'Pedernales', area_km2: 653.59, poblacion: 28009, coordenadas: { lat: 18.0667, lng: -71.7167 } },
+  { id: 43, nombre: 'Oviedo', provincia_id: 20, provincia: 'Pedernales', area_km2: 680.80, poblacion: 13435, coordenadas: { lat: 18.1500, lng: -71.5500 } },
+  
+  // Peravia
+  { id: 44, nombre: 'Baní', provincia_id: 21, provincia: 'Peravia', area_km2: 272.68, poblacion: 136745, coordenadas: { lat: 18.4500, lng: -70.3333 } },
+  { id: 45, nombre: 'Nizao', provincia_id: 21, provincia: 'Peravia', area_km2: 198.39, poblacion: 40033, coordenadas: { lat: 18.5167, lng: -70.3667 } },
+  
+  // Puerto Plata
+  { id: 46, nombre: 'Puerto Plata', provincia_id: 22, provincia: 'Puerto Plata', area_km2: 202.20, poblacion: 160857, coordenadas: { lat: 19.7833, lng: -70.6833 } },
+  { id: 47, nombre: 'Sosúa', provincia_id: 22, provincia: 'Puerto Plata', area_km2: 80.52, poblacion: 57350, coordenadas: { lat: 19.7667, lng: -70.5167 } },
+  { id: 48, nombre: 'Villa Isabela', provincia_id: 22, provincia: 'Puerto Plata', area_km2: 284.69, poblacion: 21962, coordenadas: { lat: 19.8833, lng: -70.8000 } },
+  
+  // Samaná
+  { id: 49, nombre: 'Sánchez', provincia_id: 23, provincia: 'Samaná', area_km2: 215.78, poblacion: 21377, coordenadas: { lat: 19.2000, lng: -69.3500 } },
+  { id: 50, nombre: 'Santa Bárbara de Samaná', provincia_id: 23, provincia: 'Samaná', area_km2: 275.18, poblacion: 59876, coordenadas: { lat: 19.2500, lng: -69.3333 } },
+  
+  // San Cristóbal
+  { id: 51, nombre: 'San Cristóbal', provincia_id: 24, provincia: 'San Cristóbal', area_km2: 309.38, poblacion: 235252, coordenadas: { lat: 18.4333, lng: -70.0000 } },
+  { id: 52, nombre: 'Castañuelas', provincia_id: 24, provincia: 'San Cristóbal', area_km2: 185.38, poblacion: 68134, coordenadas: { lat: 18.4667, lng: -70.1000 } },
+  
+  // San José de Ocoa
+  { id: 53, nombre: 'San José de Ocoa', provincia_id: 25, provincia: 'San José de Ocoa', area_km2: 288.20, poblacion: 48649, coordenadas: { lat: 18.6667, lng: -70.5333 } },
+  { id: 54, nombre: 'Rancho Arriba', provincia_id: 25, provincia: 'San José de Ocoa', area_km2: 236.95, poblacion: 22349, coordenadas: { lat: 18.7167, lng: -70.6000 } },
+  
+  // San Juan
+  { id: 55, nombre: 'San Juan de la Maguana', provincia_id: 26, provincia: 'San Juan', area_km2: 587.38, poblacion: 125317, coordenadas: { lat: 18.7000, lng: -71.2167 } },
+  { id: 56, nombre: 'Elías Piña', provincia_id: 26, provincia: 'San Juan', area_km2: 398.60, poblacion: 30473, coordenadas: { lat: 18.6167, lng: -71.3000 } },
+  
+  // San Pedro de Macorís
+  { id: 57, nombre: 'San Pedro de Macorís', provincia_id: 27, provincia: 'San Pedro de Macorís', area_km2: 275.65, poblacion: 217808, coordenadas: { lat: 18.4667, lng: -69.3667 } },
+  { id: 58, nombre: 'Guayabal', provincia_id: 27, provincia: 'San Pedro de Macorís', area_km2: 252.51, poblacion: 35399, coordenadas: { lat: 18.5333, lng: -69.2833 } },
+  
+  // Sánchez Ramírez
+  { id: 59, nombre: 'Cotuí', provincia_id: 28, provincia: 'Sánchez Ramírez', area_km2: 513.77, poblacion: 73895, coordenadas: { lat: 19.0000, lng: -70.1333 } },
+  { id: 60, nombre: 'Fantino', provincia_id: 28, provincia: 'Sánchez Ramírez', area_km2: 168.67, poblacion: 37428, coordenadas: { lat: 18.9500, lng: -70.0167 } },
+  
+  // Santiago
+  { id: 61, nombre: 'Santiago de los Caballeros', provincia_id: 29, provincia: 'Santiago', area_km2: 635.92, poblacion: 1204172, coordenadas: { lat: 19.4667, lng: -70.7333 } },
+  { id: 62, nombre: 'Licey al Medio', provincia_id: 29, provincia: 'Santiago', area_km2: 121.27, poblacion: 32922, coordenadas: { lat: 19.5333, lng: -70.6500 } },
+  { id: 63, nombre: 'Villa González', provincia_id: 29, provincia: 'Santiago', area_km2: 168.94, poblacion: 49168, coordenadas: { lat: 19.5000, lng: -70.8167 } },
+  
+  // Santiago Rodríguez
+  { id: 64, nombre: 'San Ignacio de Sabaneta', provincia_id: 30, provincia: 'Santiago Rodríguez', area_km2: 444.76, poblacion: 26977, coordenadas: { lat: 19.5000, lng: -71.3333 } },
+  { id: 65, nombre: 'Monción', provincia_id: 30, provincia: 'Santiago Rodríguez', area_km2: 331.05, poblacion: 16096, coordenadas: { lat: 19.4333, lng: -71.2333 } },
+  
+  // Santo Domingo
+  { id: 66, nombre: 'Santo Domingo Este', provincia_id: 31, provincia: 'Santo Domingo', area_km2: 112.98, poblacion: 1002954, coordenadas: { lat: 18.4500, lng: -69.8500 } },
+  { id: 67, nombre: 'Santo Domingo Norte', provincia_id: 31, provincia: 'Santo Domingo', area_km2: 103.93, poblacion: 315652, coordenadas: { lat: 18.5167, lng: -69.9000 } },
+  { id: 68, nombre: 'Santo Domingo Oeste', provincia_id: 31, provincia: 'Santo Domingo', area_km2: 114.42, poblacion: 517165, coordenadas: { lat: 18.5000, lng: -69.9500 } },
+  
+  // Valverde
+  { id: 69, nombre: 'Mao', provincia_id: 32, provincia: 'Valverde', area_km2: 334.72, poblacion: 95168, coordenadas: { lat: 19.5667, lng: -71.1167 } },
+  { id: 70, nombre: 'Laguna Salada', provincia_id: 32, provincia: 'Valverde', area_km2: 186.80, poblacion: 19084, coordenadas: { lat: 19.6167, lng: -71.0333 } }
+];
+
+module.exports = municipalities;

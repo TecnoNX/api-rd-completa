@@ -1,0 +1,19 @@
+{
+  "name": "api-rd-completa",
+  "version": "1.0.0",
+  "description": "API REST completa de Provincias, Municipios y Pueblos de República Dominicana",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js"
+  },
+  "keywords": ["api", "rest", "dominican-republic", "provinces", "municipalities", "towns"],
+  "author": "TecnoNX",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "dotenv": "^16.3.1",
+    "cors": "^2.8.5",
+    "xmlbuilder": "^15.1.1"
+  }
+}
