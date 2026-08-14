@@ -2,15 +2,16 @@
 
 API REST completa que proporciona información sobre todas las **provincias**, **municipios** y **pueblos/zonas aledanas** de la República Dominicana.
 
-## Características
+| Características
 
-- ✅ **32 provincias** con capital, área, población y coordenadas
+- ✅ **32 provincias** con capital, área, población y coordenadas (actualizado 2026)
 - ✅ **70 municipios** vinculados a sus provincias
-- ✅ **30 pueblos/zonas aledanas** con distancia al municipio principal
+- ✅ **95 pueblos/zonas aledanas** con distancia al municipio principal
 - ✅ **Soporte multi-formato**: JSON y XML
 - ✅ **Paginación** integrada para manejar grandes conjuntos de datos
 - ✅ **Filtros avanzados** por nombre, provincia, población y área
 - ✅ **API RESTful** con convenciones estándar
+- ✅ **Datos actualizados a 2026** con cobertura completa de toda la República
 
 ## Instalación
 
@@ -241,7 +242,49 @@ curl "http://localhost:3001/towns?provincia=Santiago&limit=5"
 
 - **Total de provincias**: 32
 - **Total de municipios**: 70
-- **Total de pueblos/zonas**: 30
+- **Total de pueblos/zonas**: 95
+- **Última actualización**: Agosto 2026
+
+## Cobertura por Provincia
+
+Todas las 32 provincias de la República Dominicana están cubiertas:
+
+| Provincia | Municipios | Pueblos/Zonas |
+|-----------|------------|---------------|
+| Distrito Nacional | 1 | 5 |
+| Azua | 3 | 3 |
+| Baoruco | 3 | 3 |
+| Barahona | 2 | 2 |
+| Dajabón | 2 | 2 |
+| Duarte | 3 | 2 |
+| Elías Piña | 2 | 2 |
+| El Seibo | 2 | 2 |
+| Espaillat | 2 | 2 |
+| Hato Mayor | 2 | 2 |
+| Hermanas Mirabal | 2 | 2 |
+| Independencia | 2 | 2 |
+| La Altagracia | 2 | 12 |
+| La Romana | 2 | 4 |
+| La Vega | 3 | 4 |
+| María Trinidad Sánchez | 2 | 2 |
+| Monseñor Nouel | 2 | 2 |
+| Monte Cristi | 2 | 2 |
+| Monte Plata | 2 | 2 |
+| Pedernales | 2 | 2 |
+| Peravia | 2 | 2 |
+| Puerto Plata | 3 | 4 |
+| Samaná | 2 | 5 |
+| San Cristóbal | 2 | 3 |
+| San José de Ocoa | 2 | 2 |
+| San Juan | 2 | 3 |
+| San Pedro de Macorís | 2 | 2 |
+| Sánchez Ramírez | 2 | 2 |
+| Santiago | 3 | 4 |
+| Santiago Rodríguez | 2 | 3 |
+| Santo Domingo | 3 | 4 |
+| Valverde | 2 | 2 |
+
+**Total**: 70 municipios, 95 pueblos/zonas en toda la República Dominicana.
 
 ## Autor
 

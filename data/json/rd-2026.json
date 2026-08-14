@@ -1,0 +1,2447 @@
+{
+  "metadata": {
+    "version": "2.0",
+    "updated": "2026-08-13",
+    "year": 2026,
+    "source": "API República Dominicana - TecnoNX",
+    "description": "Datos completos de provincias, municipios y pueblos de la República Dominicana"
+  },
+  "statistics": {
+    "total_provinces": 32,
+    "total_municipalities": 70,
+    "total_towns": 95
+  },
+  "provinces": [
+    {
+      "id": 1,
+      "nombre": "Distrito Nacional",
+      "capital": "Santo Domingo",
+      "area_km2": 104.44,
+      "poblacion": 1019407,
+      "coordenadas": {
+        "lat": 18.4861,
+        "lng": -69.8922
+      }
+    },
+    {
+      "id": 2,
+      "nombre": "Azua",
+      "capital": "Azua de Compostela",
+      "area_km2": 2813.49,
+      "poblacion": 214186,
+      "coordenadas": {
+        "lat": 18.4581,
+        "lng": -70.7381
+      }
+    },
+    {
+      "id": 3,
+      "nombre": "Baoruco",
+      "capital": "Vicente Noble",
+      "area_km2": 1321.47,
+      "poblacion": 184631,
+      "coordenadas": {
+        "lat": 18.4047,
+        "lng": -71.3614
+      }
+    },
+    {
+      "id": 4,
+      "nombre": "Barahona",
+      "capital": "Santa Cruz de Barahona",
+      "area_km2": 1720.11,
+      "poblacion": 214186,
+      "coordenadas": {
+        "lat": 18.2078,
+        "lng": -71.1006
+      }
+    },
+    {
+      "id": 5,
+      "nombre": "Dajabón",
+      "capital": "Dajabón",
+      "area_km2": 1020.55,
+      "poblacion": 73552,
+      "coordenadas": {
+        "lat": 19.5422,
+        "lng": -71.7186
+      }
+    },
+    {
+      "id": 6,
+      "nombre": "Duarte",
+      "capital": "San Francisco de Macorís",
+      "area_km2": 1696.32,
+      "poblacion": 546445,
+      "coordenadas": {
+        "lat": 19.3542,
+        "lng": -70.2525
+      }
+    },
+    {
+      "id": 7,
+      "nombre": "Elías Piña",
+      "capital": "Comendador",
+      "area_km2": 1426.0,
+      "poblacion": 61154,
+      "coordenadas": {
+        "lat": 18.95,
+        "lng": -71.5667
+      }
+    },
+    {
+      "id": 8,
+      "nombre": "El Seibo",
+      "capital": "Santa Cruz del Seibo",
+      "area_km2": 1391.4,
+      "poblacion": 105639,
+      "coordenadas": {
+        "lat": 18.8281,
+        "lng": -69.0506
+      }
+    },
+    {
+      "id": 9,
+      "nombre": "Espaillat",
+      "capital": "Moca",
+      "area_km2": 839.21,
+      "poblacion": 358989,
+      "coordenadas": {
+        "lat": 19.3833,
+        "lng": -70.5333
+      }
+    },
+    {
+      "id": 10,
+      "nombre": "Hato Mayor",
+      "capital": "Hato Mayor del Rey",
+      "area_km2": 1391.4,
+      "poblacion": 117386,
+      "coordenadas": {
+        "lat": 18.8281,
+        "lng": -69.3506
+      }
+    },
+    {
+      "id": 11,
+      "nombre": "Hermanas Mirabal",
+      "capital": "Salcedo",
+      "area_km2": 441.94,
+      "poblacion": 169617,
+      "coordenadas": {
+        "lat": 19.3167,
+        "lng": -70.3667
+      }
+    },
+    {
+      "id": 12,
+      "nombre": "Independencia",
+      "capital": "Jimaní",
+      "area_km2": 2253.24,
+      "poblacion": 87103,
+      "coordenadas": {
+        "lat": 18.2078,
+        "lng": -72.0
+      }
+    },
+    {
+      "id": 13,
+      "nombre": "La Altagracia",
+      "capital": "Higüey",
+      "area_km2": 3002.21,
+      "poblacion": 524386,
+      "coordenadas": {
+        "lat": 18.8281,
+        "lng": -68.6506
+      }
+    },
+    {
+      "id": 14,
+      "nombre": "La Romana",
+      "capital": "La Romana",
+      "area_km2": 652.21,
+      "poblacion": 273349,
+      "coordenadas": {
+        "lat": 18.4333,
+        "lng": -68.9667
+      }
+    },
+    {
+      "id": 15,
+      "nombre": "La Vega",
+      "capital": "Concepción de La Vega",
+      "area_km2": 2288.6,
+      "poblacion": 331393,
+      "coordenadas": {
+        "lat": 19.0,
+        "lng": -70.5333
+      }
+    },
+    {
+      "id": 16,
+      "nombre": "María Trinidad Sánchez",
+      "capital": "Nagua",
+      "area_km2": 1294.8,
+      "poblacion": 293606,
+      "coordenadas": {
+        "lat": 19.3167,
+        "lng": -69.8333
+      }
+    },
+    {
+      "id": 17,
+      "nombre": "Monseñor Nouel",
+      "capital": "Bonao",
+      "area_km2": 996.16,
+      "poblacion": 256017,
+      "coordenadas": {
+        "lat": 18.9333,
+        "lng": -70.4667
+      }
+    },
+    {
+      "id": 18,
+      "nombre": "Monte Cristi",
+      "capital": "Monte Cristi",
+      "area_km2": 1927.61,
+      "poblacion": 178607,
+      "coordenadas": {
+        "lat": 19.5422,
+        "lng": -70.7186
+      }
+    },
+    {
+      "id": 19,
+      "nombre": "Monte Plata",
+      "capital": "Monte Plata",
+      "area_km2": 2631.76,
+      "poblacion": 216529,
+      "coordenadas": {
+        "lat": 18.7333,
+        "lng": -69.7333
+      }
+    },
+    {
+      "id": 20,
+      "nombre": "Pedernales",
+      "capital": "Pedernales",
+      "area_km2": 2063.24,
+      "poblacion": 63388,
+      "coordenadas": {
+        "lat": 18.0667,
+        "lng": -71.7167
+      }
+    },
+    {
+      "id": 21,
+      "nombre": "Peravia",
+      "capital": "Baní",
+      "area_km2": 791.42,
+      "poblacion": 244179,
+      "coordenadas": {
+        "lat": 18.45,
+        "lng": -70.3333
+      }
+    },
+    {
+      "id": 22,
+      "nombre": "Puerto Plata",
+      "capital": "Puerto Plata",
+      "area_km2": 2029.7,
+      "poblacion": 363050,
+      "coordenadas": {
+        "lat": 19.7833,
+        "lng": -70.6833
+      }
+    },
+    {
+      "id": 23,
+      "nombre": "Samaná",
+      "capital": "Sánchez",
+      "area_km2": 890.18,
+      "poblacion": 108140,
+      "coordenadas": {
+        "lat": 19.2,
+        "lng": -69.35
+      }
+    },
+    {
+      "id": 24,
+      "nombre": "San Cristóbal",
+      "capital": "San Cristóbal",
+      "area_km2": 1275.44,
+      "poblacion": 595009,
+      "coordenadas": {
+        "lat": 18.4333,
+        "lng": -70.0
+      }
+    },
+    {
+      "id": 25,
+      "nombre": "San José de Ocoa",
+      "capital": "San José de Ocoa",
+      "area_km2": 855.2,
+      "poblacion": 100867,
+      "coordenadas": {
+        "lat": 18.6667,
+        "lng": -70.5333
+      }
+    },
+    {
+      "id": 26,
+      "nombre": "San Juan",
+      "capital": "San Juan de la Maguana",
+      "area_km2": 2346.6,
+      "poblacion": 233499,
+      "coordenadas": {
+        "lat": 18.7,
+        "lng": -71.2167
+      }
+    },
+    {
+      "id": 27,
+      "nombre": "San Pedro de Macorís",
+      "capital": "San Pedro de Macorís",
+      "area_km2": 1164.59,
+      "poblacion": 298272,
+      "coordenadas": {
+        "lat": 18.4667,
+        "lng": -69.3667
+      }
+    },
+    {
+      "id": 28,
+      "nombre": "Sánchez Ramírez",
+      "capital": "Cotuí",
+      "area_km2": 1183.0,
+      "poblacion": 203235,
+      "coordenadas": {
+        "lat": 19.0,
+        "lng": -70.1333
+      }
+    },
+    {
+      "id": 29,
+      "nombre": "Santiago",
+      "capital": "Santiago de los Caballeros",
+      "area_km2": 2835.2,
+      "poblacion": 1204172,
+      "coordenadas": {
+        "lat": 19.4667,
+        "lng": -70.7333
+      }
+    },
+    {
+      "id": 30,
+      "nombre": "Santiago Rodríguez",
+      "capital": "San Ignacio de Sabaneta",
+      "area_km2": 1102.68,
+      "poblacion": 55460,
+      "coordenadas": {
+        "lat": 19.5,
+        "lng": -71.3333
+      }
+    },
+    {
+      "id": 31,
+      "nombre": "Santo Domingo",
+      "capital": "Santo Domingo Este",
+      "area_km2": 1345.7,
+      "poblacion": 2631794,
+      "coordenadas": {
+        "lat": 18.4833,
+        "lng": -69.85
+      }
+    },
+    {
+      "id": 32,
+      "nombre": "Valverde",
+      "capital": "Mao",
+      "area_km2": 1142.3,
+      "poblacion": 183904,
+      "coordenadas": {
+        "lat": 19.5667,
+        "lng": -71.1167
+      }
+    }
+  ],
+  "municipalities": [
+    {
+      "id": 1,
+      "nombre": "Santo Domingo",
+      "provincia_id": 1,
+      "provincia": "Distrito Nacional",
+      "area_km2": 104.44,
+      "poblacion": 1019407,
+      "coordenadas": {
+        "lat": 18.4861,
+        "lng": -69.8922
+      }
+    },
+    {
+      "id": 2,
+      "nombre": "Azua de Compostela",
+      "provincia_id": 2,
+      "provincia": "Azua",
+      "area_km2": 764.28,
+      "poblacion": 139117,
+      "coordenadas": {
+        "lat": 18.4581,
+        "lng": -70.7381
+      }
+    },
+    {
+      "id": 3,
+      "nombre": "Padre Las Casas",
+      "provincia_id": 2,
+      "provincia": "Azua",
+      "area_km2": 260.55,
+      "poblacion": 43231,
+      "coordenadas": {
+        "lat": 18.4167,
+        "lng": -70.8167
+      }
+    },
+    {
+      "id": 4,
+      "nombre": "Charcas",
+      "provincia_id": 2,
+      "provincia": "Azua",
+      "area_km2": 233.83,
+      "poblacion": 13360,
+      "coordenadas": {
+        "lat": 18.35,
+        "lng": -70.6833
+      }
+    },
+    {
+      "id": 5,
+      "nombre": "Vicente Noble",
+      "provincia_id": 3,
+      "provincia": "Baoruco",
+      "area_km2": 258.13,
+      "poblacion": 25771,
+      "coordenadas": {
+        "lat": 18.4047,
+        "lng": -71.3614
+      }
+    },
+    {
+      "id": 6,
+      "nombre": "Barahona",
+      "provincia_id": 3,
+      "provincia": "Baoruco",
+      "area_km2": 346.84,
+      "poblacion": 82033,
+      "coordenadas": {
+        "lat": 18.2078,
+        "lng": -71.1006
+      }
+    },
+    {
+      "id": 7,
+      "nombre": "Cabral",
+      "provincia_id": 3,
+      "provincia": "Baoruco",
+      "area_km2": 242.06,
+      "poblacion": 20036,
+      "coordenadas": {
+        "lat": 18.3167,
+        "lng": -71.2667
+      }
+    },
+    {
+      "id": 8,
+      "nombre": "Santa Cruz de Barahona",
+      "provincia_id": 4,
+      "provincia": "Barahona",
+      "area_km2": 445.89,
+      "poblacion": 194631,
+      "coordenadas": {
+        "lat": 18.2078,
+        "lng": -71.1006
+      }
+    },
+    {
+      "id": 9,
+      "nombre": "Cayetano Germosén",
+      "provincia_id": 4,
+      "provincia": "Barahona",
+      "area_km2": 315.5,
+      "poblacion": 8106,
+      "coordenadas": {
+        "lat": 18.1167,
+        "lng": -71.4833
+      }
+    },
+    {
+      "id": 10,
+      "nombre": "Dajabón",
+      "provincia_id": 5,
+      "provincia": "Dajabón",
+      "area_km2": 511.67,
+      "poblacion": 53397,
+      "coordenadas": {
+        "lat": 19.5422,
+        "lng": -71.7186
+      }
+    },
+    {
+      "id": 11,
+      "nombre": "Líbano",
+      "provincia_id": 5,
+      "provincia": "Dajabón",
+      "area_km2": 259.43,
+      "poblacion": 9951,
+      "coordenadas": {
+        "lat": 19.6167,
+        "lng": -71.55
+      }
+    },
+    {
+      "id": 12,
+      "nombre": "San Francisco de Macorís",
+      "provincia_id": 6,
+      "provincia": "Duarte",
+      "area_km2": 220.62,
+      "poblacion": 304243,
+      "coordenadas": {
+        "lat": 19.3542,
+        "lng": -70.2525
+      }
+    },
+    {
+      "id": 13,
+      "nombre": "Pimentel",
+      "provincia_id": 6,
+      "provincia": "Duarte",
+      "area_km2": 113.96,
+      "poblacion": 28934,
+      "coordenadas": {
+        "lat": 19.3167,
+        "lng": -70.1667
+      }
+    },
+    {
+      "id": 14,
+      "nombre": "Yuna",
+      "provincia_id": 6,
+      "provincia": "Duarte",
+      "area_km2": 196.59,
+      "poblacion": 23672,
+      "coordenadas": {
+        "lat": 19.4333,
+        "lng": -70.3167
+      }
+    },
+    {
+      "id": 15,
+      "nombre": "Comendador",
+      "provincia_id": 7,
+      "provincia": "Elías Piña",
+      "area_km2": 465.29,
+      "poblacion": 26976,
+      "coordenadas": {
+        "lat": 18.95,
+        "lng": -71.5667
+      }
+    },
+    {
+      "id": 16,
+      "nombre": "Tamboril",
+      "provincia_id": 7,
+      "provincia": "Elías Piña",
+      "area_km2": 346.38,
+      "poblacion": 17324,
+      "coordenadas": {
+        "lat": 19.0333,
+        "lng": -71.6167
+      }
+    },
+    {
+      "id": 17,
+      "nombre": "Santa Cruz del Seibo",
+      "provincia_id": 8,
+      "provincia": "El Seibo",
+      "area_km2": 464.02,
+      "poblacion": 61958,
+      "coordenadas": {
+        "lat": 18.8281,
+        "lng": -69.0506
+      }
+    },
+    {
+      "id": 18,
+      "nombre": "Miches",
+      "provincia_id": 8,
+      "provincia": "El Seibo",
+      "area_km2": 550.59,
+      "poblacion": 29453,
+      "coordenadas": {
+        "lat": 18.9167,
+        "lng": -68.8167
+      }
+    },
+    {
+      "id": 19,
+      "nombre": "Moca",
+      "provincia_id": 9,
+      "provincia": "Espaillat",
+      "area_km2": 176.0,
+      "poblacion": 146654,
+      "coordenadas": {
+        "lat": 19.3833,
+        "lng": -70.5333
+      }
+    },
+    {
+      "id": 20,
+      "nombre": "Gaspar Hernández",
+      "provincia_id": 9,
+      "provincia": "Espaillat",
+      "area_km2": 186.27,
+      "poblacion": 51068,
+      "coordenadas": {
+        "lat": 19.5,
+        "lng": -70.5833
+      }
+    },
+    {
+      "id": 21,
+      "nombre": "Hato Mayor del Rey",
+      "provincia_id": 10,
+      "provincia": "Hato Mayor",
+      "area_km2": 483.6,
+      "poblacion": 57103,
+      "coordenadas": {
+        "lat": 18.8281,
+        "lng": -69.3506
+      }
+    },
+    {
+      "id": 22,
+      "nombre": "El Valle",
+      "provincia_id": 10,
+      "provincia": "Hato Mayor",
+      "area_km2": 368.4,
+      "poblacion": 26658,
+      "coordenadas": {
+        "lat": 18.9167,
+        "lng": -69.2333
+      }
+    },
+    {
+      "id": 23,
+      "nombre": "Salcedo",
+      "provincia_id": 11,
+      "provincia": "Hermanas Mirabal",
+      "area_km2": 148.46,
+      "poblacion": 75306,
+      "coordenadas": {
+        "lat": 19.3167,
+        "lng": -70.3667
+      }
+    },
+    {
+      "id": 24,
+      "nombre": "Tenares",
+      "provincia_id": 11,
+      "provincia": "Hermanas Mirabal",
+      "area_km2": 145.7,
+      "poblacion": 47496,
+      "coordenadas": {
+        "lat": 19.3833,
+        "lng": -70.3333
+      }
+    },
+    {
+      "id": 25,
+      "nombre": "Jimaní",
+      "provincia_id": 12,
+      "provincia": "Independencia",
+      "area_km2": 445.2,
+      "poblacion": 26867,
+      "coordenadas": {
+        "lat": 18.2078,
+        "lng": -72.0
+      }
+    },
+    {
+      "id": 26,
+      "nombre": "Las Matas de Farfán",
+      "provincia_id": 12,
+      "provincia": "Independencia",
+      "area_km2": 676.93,
+      "poblacion": 42217,
+      "coordenadas": {
+        "lat": 18.2333,
+        "lng": -72.1833
+      }
+    },
+    {
+      "id": 27,
+      "nombre": "Higüey",
+      "provincia_id": 13,
+      "provincia": "La Altagracia",
+      "area_km2": 1060.59,
+      "poblacion": 390115,
+      "coordenadas": {
+        "lat": 18.8281,
+        "lng": -68.6506
+      }
+    },
+    {
+      "id": 28,
+      "nombre": "Río San Juan",
+      "provincia_id": 13,
+      "provincia": "La Altagracia",
+      "area_km2": 266.61,
+      "poblacion": 30182,
+      "coordenadas": {
+        "lat": 18.9167,
+        "lng": -69.0167
+      }
+    },
+    {
+      "id": 29,
+      "nombre": "La Romana",
+      "provincia_id": 14,
+      "provincia": "La Romana",
+      "area_km2": 213.99,
+      "poblacion": 224429,
+      "coordenadas": {
+        "lat": 18.4333,
+        "lng": -68.9667
+      }
+    },
+    {
+      "id": 30,
+      "nombre": "Guayacán",
+      "provincia_id": 14,
+      "provincia": "La Romana",
+      "area_km2": 156.47,
+      "poblacion": 24509,
+      "coordenadas": {
+        "lat": 18.5,
+        "lng": -68.9
+      }
+    },
+    {
+      "id": 31,
+      "nombre": "Concepción de La Vega",
+      "provincia_id": 15,
+      "provincia": "La Vega",
+      "area_km2": 466.53,
+      "poblacion": 122336,
+      "coordenadas": {
+        "lat": 19.0,
+        "lng": -70.5333
+      }
+    },
+    {
+      "id": 32,
+      "nombre": "Jarabacoa",
+      "provincia_id": 15,
+      "provincia": "La Vega",
+      "area_km2": 329.81,
+      "poblacion": 42142,
+      "coordenadas": {
+        "lat": 19.1333,
+        "lng": -70.7167
+      }
+    },
+    {
+      "id": 33,
+      "nombre": "Constanza",
+      "provincia_id": 15,
+      "provincia": "La Vega",
+      "area_km2": 672.81,
+      "poblacion": 44566,
+      "coordenadas": {
+        "lat": 19.0833,
+        "lng": -70.8167
+      }
+    },
+    {
+      "id": 34,
+      "nombre": "Nagua",
+      "provincia_id": 16,
+      "provincia": "María Trinidad Sánchez",
+      "area_km2": 350.95,
+      "poblacion": 107829,
+      "coordenadas": {
+        "lat": 19.3167,
+        "lng": -69.8333
+      }
+    },
+    {
+      "id": 35,
+      "nombre": "Cabrera",
+      "provincia_id": 16,
+      "provincia": "María Trinidad Sánchez",
+      "area_km2": 210.87,
+      "poblacion": 32207,
+      "coordenadas": {
+        "lat": 19.4167,
+        "lng": -69.6333
+      }
+    },
+    {
+      "id": 36,
+      "nombre": "Bonao",
+      "provincia_id": 17,
+      "provincia": "Monseñor Nouel",
+      "area_km2": 388.98,
+      "poblacion": 104635,
+      "coordenadas": {
+        "lat": 18.9333,
+        "lng": -70.4667
+      }
+    },
+    {
+      "id": 37,
+      "nombre": "Villa Altagracia",
+      "provincia_id": 17,
+      "provincia": "Monseñor Nouel",
+      "area_km2": 233.91,
+      "poblacion": 43428,
+      "coordenadas": {
+        "lat": 18.85,
+        "lng": -70.2833
+      }
+    },
+    {
+      "id": 38,
+      "nombre": "Monte Cristi",
+      "provincia_id": 18,
+      "provincia": "Monte Cristi",
+      "area_km2": 447.76,
+      "poblacion": 61119,
+      "coordenadas": {
+        "lat": 19.5422,
+        "lng": -70.7186
+      }
+    },
+    {
+      "id": 39,
+      "nombre": "Guayubín",
+      "provincia_id": 18,
+      "provincia": "Monte Cristi",
+      "area_km2": 581.68,
+      "poblacion": 29931,
+      "coordenadas": {
+        "lat": 19.5833,
+        "lng": -71.35
+      }
+    },
+    {
+      "id": 40,
+      "nombre": "Monte Plata",
+      "provincia_id": 19,
+      "provincia": "Monte Plata",
+      "area_km2": 538.29,
+      "poblacion": 63952,
+      "coordenadas": {
+        "lat": 18.7333,
+        "lng": -69.7333
+      }
+    },
+    {
+      "id": 41,
+      "nombre": "Yamasá",
+      "provincia_id": 19,
+      "provincia": "Monte Plata",
+      "area_km2": 430.87,
+      "poblacion": 59657,
+      "coordenadas": {
+        "lat": 18.6833,
+        "lng": -69.8333
+      }
+    },
+    {
+      "id": 42,
+      "nombre": "Pedernales",
+      "provincia_id": 20,
+      "provincia": "Pedernales",
+      "area_km2": 653.59,
+      "poblacion": 28009,
+      "coordenadas": {
+        "lat": 18.0667,
+        "lng": -71.7167
+      }
+    },
+    {
+      "id": 43,
+      "nombre": "Oviedo",
+      "provincia_id": 20,
+      "provincia": "Pedernales",
+      "area_km2": 680.8,
+      "poblacion": 13435,
+      "coordenadas": {
+        "lat": 18.15,
+        "lng": -71.55
+      }
+    },
+    {
+      "id": 44,
+      "nombre": "Baní",
+      "provincia_id": 21,
+      "provincia": "Peravia",
+      "area_km2": 272.68,
+      "poblacion": 136745,
+      "coordenadas": {
+        "lat": 18.45,
+        "lng": -70.3333
+      }
+    },
+    {
+      "id": 45,
+      "nombre": "Nizao",
+      "provincia_id": 21,
+      "provincia": "Peravia",
+      "area_km2": 198.39,
+      "poblacion": 40033,
+      "coordenadas": {
+        "lat": 18.5167,
+        "lng": -70.3667
+      }
+    },
+    {
+      "id": 46,
+      "nombre": "Puerto Plata",
+      "provincia_id": 22,
+      "provincia": "Puerto Plata",
+      "area_km2": 202.2,
+      "poblacion": 160857,
+      "coordenadas": {
+        "lat": 19.7833,
+        "lng": -70.6833
+      }
+    },
+    {
+      "id": 47,
+      "nombre": "Sosúa",
+      "provincia_id": 22,
+      "provincia": "Puerto Plata",
+      "area_km2": 80.52,
+      "poblacion": 57350,
+      "coordenadas": {
+        "lat": 19.7667,
+        "lng": -70.5167
+      }
+    },
+    {
+      "id": 48,
+      "nombre": "Villa Isabela",
+      "provincia_id": 22,
+      "provincia": "Puerto Plata",
+      "area_km2": 284.69,
+      "poblacion": 21962,
+      "coordenadas": {
+        "lat": 19.8833,
+        "lng": -70.8
+      }
+    },
+    {
+      "id": 49,
+      "nombre": "Sánchez",
+      "provincia_id": 23,
+      "provincia": "Samaná",
+      "area_km2": 215.78,
+      "poblacion": 21377,
+      "coordenadas": {
+        "lat": 19.2,
+        "lng": -69.35
+      }
+    },
+    {
+      "id": 50,
+      "nombre": "Santa Bárbara de Samaná",
+      "provincia_id": 23,
+      "provincia": "Samaná",
+      "area_km2": 275.18,
+      "poblacion": 59876,
+      "coordenadas": {
+        "lat": 19.25,
+        "lng": -69.3333
+      }
+    },
+    {
+      "id": 51,
+      "nombre": "San Cristóbal",
+      "provincia_id": 24,
+      "provincia": "San Cristóbal",
+      "area_km2": 309.38,
+      "poblacion": 235252,
+      "coordenadas": {
+        "lat": 18.4333,
+        "lng": -70.0
+      }
+    },
+    {
+      "id": 52,
+      "nombre": "Castañuelas",
+      "provincia_id": 24,
+      "provincia": "San Cristóbal",
+      "area_km2": 185.38,
+      "poblacion": 68134,
+      "coordenadas": {
+        "lat": 18.4667,
+        "lng": -70.1
+      }
+    },
+    {
+      "id": 53,
+      "nombre": "San José de Ocoa",
+      "provincia_id": 25,
+      "provincia": "San José de Ocoa",
+      "area_km2": 288.2,
+      "poblacion": 48649,
+      "coordenadas": {
+        "lat": 18.6667,
+        "lng": -70.5333
+      }
+    },
+    {
+      "id": 54,
+      "nombre": "Rancho Arriba",
+      "provincia_id": 25,
+      "provincia": "San José de Ocoa",
+      "area_km2": 236.95,
+      "poblacion": 22349,
+      "coordenadas": {
+        "lat": 18.7167,
+        "lng": -70.6
+      }
+    },
+    {
+      "id": 55,
+      "nombre": "San Juan de la Maguana",
+      "provincia_id": 26,
+      "provincia": "San Juan",
+      "area_km2": 587.38,
+      "poblacion": 125317,
+      "coordenadas": {
+        "lat": 18.7,
+        "lng": -71.2167
+      }
+    },
+    {
+      "id": 56,
+      "nombre": "Elías Piña",
+      "provincia_id": 26,
+      "provincia": "San Juan",
+      "area_km2": 398.6,
+      "poblacion": 30473,
+      "coordenadas": {
+        "lat": 18.6167,
+        "lng": -71.3
+      }
+    },
+    {
+      "id": 57,
+      "nombre": "San Pedro de Macorís",
+      "provincia_id": 27,
+      "provincia": "San Pedro de Macorís",
+      "area_km2": 275.65,
+      "poblacion": 217808,
+      "coordenadas": {
+        "lat": 18.4667,
+        "lng": -69.3667
+      }
+    },
+    {
+      "id": 58,
+      "nombre": "Guayabal",
+      "provincia_id": 27,
+      "provincia": "San Pedro de Macorís",
+      "area_km2": 252.51,
+      "poblacion": 35399,
+      "coordenadas": {
+        "lat": 18.5333,
+        "lng": -69.2833
+      }
+    },
+    {
+      "id": 59,
+      "nombre": "Cotuí",
+      "provincia_id": 28,
+      "provincia": "Sánchez Ramírez",
+      "area_km2": 513.77,
+      "poblacion": 73895,
+      "coordenadas": {
+        "lat": 19.0,
+        "lng": -70.1333
+      }
+    },
+    {
+      "id": 60,
+      "nombre": "Fantino",
+      "provincia_id": 28,
+      "provincia": "Sánchez Ramírez",
+      "area_km2": 168.67,
+      "poblacion": 37428,
+      "coordenadas": {
+        "lat": 18.95,
+        "lng": -70.0167
+      }
+    },
+    {
+      "id": 61,
+      "nombre": "Santiago de los Caballeros",
+      "provincia_id": 29,
+      "provincia": "Santiago",
+      "area_km2": 635.92,
+      "poblacion": 1204172,
+      "coordenadas": {
+        "lat": 19.4667,
+        "lng": -70.7333
+      }
+    },
+    {
+      "id": 62,
+      "nombre": "Licey al Medio",
+      "provincia_id": 29,
+      "provincia": "Santiago",
+      "area_km2": 121.27,
+      "poblacion": 32922,
+      "coordenadas": {
+        "lat": 19.5333,
+        "lng": -70.65
+      }
+    },
+    {
+      "id": 63,
+      "nombre": "Villa González",
+      "provincia_id": 29,
+      "provincia": "Santiago",
+      "area_km2": 168.94,
+      "poblacion": 49168,
+      "coordenadas": {
+        "lat": 19.5,
+        "lng": -70.8167
+      }
+    },
+    {
+      "id": 64,
+      "nombre": "San Ignacio de Sabaneta",
+      "provincia_id": 30,
+      "provincia": "Santiago Rodríguez",
+      "area_km2": 444.76,
+      "poblacion": 26977,
+      "coordenadas": {
+        "lat": 19.5,
+        "lng": -71.3333
+      }
+    },
+    {
+      "id": 65,
+      "nombre": "Monción",
+      "provincia_id": 30,
+      "provincia": "Santiago Rodríguez",
+      "area_km2": 331.05,
+      "poblacion": 16096,
+      "coordenadas": {
+        "lat": 19.4333,
+        "lng": -71.2333
+      }
+    },
+    {
+      "id": 66,
+      "nombre": "Santo Domingo Este",
+      "provincia_id": 31,
+      "provincia": "Santo Domingo",
+      "area_km2": 112.98,
+      "poblacion": 1002954,
+      "coordenadas": {
+        "lat": 18.45,
+        "lng": -69.85
+      }
+    },
+    {
+      "id": 67,
+      "nombre": "Santo Domingo Norte",
+      "provincia_id": 31,
+      "provincia": "Santo Domingo",
+      "area_km2": 103.93,
+      "poblacion": 315652,
+      "coordenadas": {
+        "lat": 18.5167,
+        "lng": -69.9
+      }
+    },
+    {
+      "id": 68,
+      "nombre": "Santo Domingo Oeste",
+      "provincia_id": 31,
+      "provincia": "Santo Domingo",
+      "area_km2": 114.42,
+      "poblacion": 517165,
+      "coordenadas": {
+        "lat": 18.5,
+        "lng": -69.95
+      }
+    },
+    {
+      "id": 69,
+      "nombre": "Mao",
+      "provincia_id": 32,
+      "provincia": "Valverde",
+      "area_km2": 334.72,
+      "poblacion": 95168,
+      "coordenadas": {
+        "lat": 19.5667,
+        "lng": -71.1167
+      }
+    },
+    {
+      "id": 70,
+      "nombre": "Laguna Salada",
+      "provincia_id": 32,
+      "provincia": "Valverde",
+      "area_km2": 186.8,
+      "poblacion": 19084,
+      "coordenadas": {
+        "lat": 19.6167,
+        "lng": -71.0333
+      }
+    }
+  ],
+  "towns": [
+    {
+      "id": 1,
+      "nombre": "Los Tres Ojos",
+      "municipio_id": 1,
+      "municipio": "Santo Domingo",
+      "provincia_id": 1,
+      "provincia": "Distrito Nacional",
+      "distancia_km": 5.2,
+      "coordenadas": {
+        "lat": 18.47,
+        "lng": -69.87
+      }
+    },
+    {
+      "id": 2,
+      "nombre": "Gazcue",
+      "municipio_id": 1,
+      "municipio": "Santo Domingo",
+      "provincia_id": 1,
+      "provincia": "Distrito Nacional",
+      "distancia_km": 2.1,
+      "coordenadas": {
+        "lat": 18.475,
+        "lng": -69.88
+      }
+    },
+    {
+      "id": 3,
+      "nombre": "Zona Colonial",
+      "municipio_id": 1,
+      "municipio": "Santo Domingo",
+      "provincia_id": 1,
+      "provincia": "Distrito Nacional",
+      "distancia_km": 1.5,
+      "coordenadas": {
+        "lat": 18.465,
+        "lng": -69.885
+      }
+    },
+    {
+      "id": 4,
+      "nombre": "Piantini",
+      "municipio_id": 1,
+      "municipio": "Santo Domingo",
+      "provincia_id": 1,
+      "provincia": "Distrito Nacional",
+      "distancia_km": 4.8,
+      "coordenadas": {
+        "lat": 18.495,
+        "lng": -69.91
+      }
+    },
+    {
+      "id": 5,
+      "nombre": "Naco",
+      "municipio_id": 1,
+      "municipio": "Santo Domingo",
+      "provincia_id": 1,
+      "provincia": "Distrito Nacional",
+      "distancia_km": 6.2,
+      "coordenadas": {
+        "lat": 18.505,
+        "lng": -69.9
+      }
+    },
+    {
+      "id": 6,
+      "nombre": "Boca Chica",
+      "municipio_id": 66,
+      "municipio": "Santo Domingo Este",
+      "provincia_id": 31,
+      "provincia": "Santo Domingo",
+      "distancia_km": 28.5,
+      "coordenadas": {
+        "lat": 18.42,
+        "lng": -69.65
+      }
+    },
+    {
+      "id": 7,
+      "nombre": "Los Alcarrizos",
+      "municipio_id": 68,
+      "municipio": "Santo Domingo Oeste",
+      "provincia_id": 31,
+      "provincia": "Santo Domingo",
+      "distancia_km": 18.3,
+      "coordenadas": {
+        "lat": 18.51,
+        "lng": -70.02
+      }
+    },
+    {
+      "id": 8,
+      "nombre": "Haina",
+      "municipio_id": 66,
+      "municipio": "Santo Domingo Este",
+      "provincia_id": 31,
+      "provincia": "Santo Domingo",
+      "distancia_km": 22.8,
+      "coordenadas": {
+        "lat": 18.44,
+        "lng": -69.75
+      }
+    },
+    {
+      "id": 9,
+      "nombre": "Sabana Perdida",
+      "municipio_id": 68,
+      "municipio": "Santo Domingo Oeste",
+      "provincia_id": 31,
+      "provincia": "Santo Domingo",
+      "distancia_km": 25.1,
+      "coordenadas": {
+        "lat": 18.56,
+        "lng": -69.98
+      }
+    },
+    {
+      "id": 10,
+      "nombre": "Los Llanos",
+      "municipio_id": 51,
+      "municipio": "San Cristóbal",
+      "provincia_id": 24,
+      "provincia": "San Cristóbal",
+      "distancia_km": 8.5,
+      "coordenadas": {
+        "lat": 18.41,
+        "lng": -69.92
+      }
+    },
+    {
+      "id": 11,
+      "nombre": "Cambita Garabitos",
+      "municipio_id": 52,
+      "municipio": "Castañuelas",
+      "provincia_id": 24,
+      "provincia": "San Cristóbal",
+      "distancia_km": 15.2,
+      "coordenadas": {
+        "lat": 18.38,
+        "lng": -69.95
+      }
+    },
+    {
+      "id": 12,
+      "nombre": "El Molino",
+      "municipio_id": 51,
+      "municipio": "San Cristóbal",
+      "provincia_id": 24,
+      "provincia": "San Cristóbal",
+      "distancia_km": 12.8,
+      "coordenadas": {
+        "lat": 18.45,
+        "lng": -69.92
+      }
+    },
+    {
+      "id": 13,
+      "nombre": "Las Yayas",
+      "municipio_id": 2,
+      "municipio": "Azua de Compostela",
+      "provincia_id": 2,
+      "provincia": "Azua",
+      "distancia_km": 18.4,
+      "coordenadas": {
+        "lat": 18.38,
+        "lng": -70.68
+      }
+    },
+    {
+      "id": 14,
+      "nombre": "Jumá",
+      "municipio_id": 2,
+      "municipio": "Azua de Compostela",
+      "provincia_id": 2,
+      "provincia": "Azua",
+      "distancia_km": 22.5,
+      "coordenadas": {
+        "lat": 18.42,
+        "lng": -70.8
+      }
+    },
+    {
+      "id": 15,
+      "nombre": "Estebanía",
+      "municipio_id": 2,
+      "municipio": "Azua de Compostela",
+      "provincia_id": 2,
+      "provincia": "Azua",
+      "distancia_km": 25.8,
+      "coordenadas": {
+        "lat": 18.5,
+        "lng": -70.65
+      }
+    },
+    {
+      "id": 16,
+      "nombre": "Las Lajas",
+      "municipio_id": 5,
+      "municipio": "Vicente Noble",
+      "provincia_id": 3,
+      "provincia": "Baoruco",
+      "distancia_km": 8.2,
+      "coordenadas": {
+        "lat": 18.38,
+        "lng": -71.32
+      }
+    },
+    {
+      "id": 17,
+      "nombre": "Fondura",
+      "municipio_id": 6,
+      "municipio": "Barahona",
+      "provincia_id": 3,
+      "provincia": "Baoruco",
+      "distancia_km": 12.5,
+      "coordenadas": {
+        "lat": 18.22,
+        "lng": -71.08
+      }
+    },
+    {
+      "id": 18,
+      "nombre": "Paraíso",
+      "municipio_id": 8,
+      "municipio": "Santa Cruz de Barahona",
+      "provincia_id": 4,
+      "provincia": "Barahona",
+      "distancia_km": 8.5,
+      "coordenadas": {
+        "lat": 18.18,
+        "lng": -71.05
+      }
+    },
+    {
+      "id": 19,
+      "nombre": "Cabral",
+      "municipio_id": 7,
+      "municipio": "Cabral",
+      "provincia_id": 3,
+      "provincia": "Baoruco",
+      "distancia_km": 15.2,
+      "coordenadas": {
+        "lat": 18.28,
+        "lng": -71.25
+      }
+    },
+    {
+      "id": 20,
+      "nombre": "Fondura",
+      "municipio_id": 8,
+      "municipio": "Santa Cruz de Barahona",
+      "provincia_id": 4,
+      "provincia": "Barahona",
+      "distancia_km": 18.3,
+      "coordenadas": {
+        "lat": 18.12,
+        "lng": -71.18
+      }
+    },
+    {
+      "id": 21,
+      "nombre": "Líbano",
+      "municipio_id": 10,
+      "municipio": "Dajabón",
+      "provincia_id": 5,
+      "provincia": "Dajabón",
+      "distancia_km": 12.8,
+      "coordenadas": {
+        "lat": 19.6167,
+        "lng": -71.55
+      }
+    },
+    {
+      "id": 22,
+      "nombre": "Campamento",
+      "municipio_id": 10,
+      "municipio": "Dajabón",
+      "provincia_id": 5,
+      "provincia": "Dajabón",
+      "distancia_km": 18.5,
+      "coordenadas": {
+        "lat": 19.58,
+        "lng": -71.75
+      }
+    },
+    {
+      "id": 23,
+      "nombre": "Galbán",
+      "municipio_id": 12,
+      "municipio": "San Francisco de Macorís",
+      "provincia_id": 6,
+      "provincia": "Duarte",
+      "distancia_km": 7.2,
+      "coordenadas": {
+        "lat": 19.3,
+        "lng": -70.2
+      }
+    },
+    {
+      "id": 24,
+      "nombre": "Pimentel",
+      "municipio_id": 13,
+      "municipio": "Pimentel",
+      "provincia_id": 6,
+      "provincia": "Duarte",
+      "distancia_km": 15.8,
+      "coordenadas": {
+        "lat": 19.3167,
+        "lng": -70.1667
+      }
+    },
+    {
+      "id": 25,
+      "nombre": "Comendador",
+      "municipio_id": 15,
+      "municipio": "Comendador",
+      "provincia_id": 7,
+      "provincia": "Elías Piña",
+      "distancia_km": 0.0,
+      "coordenadas": {
+        "lat": 18.95,
+        "lng": -71.5667
+      }
+    },
+    {
+      "id": 26,
+      "nombre": "San Miguel de la Atalaya",
+      "municipio_id": 15,
+      "municipio": "Comendador",
+      "provincia_id": 7,
+      "provincia": "Elías Piña",
+      "distancia_km": 12.5,
+      "coordenadas": {
+        "lat": 18.98,
+        "lng": -71.62
+      }
+    },
+    {
+      "id": 27,
+      "nombre": "Miches",
+      "municipio_id": 18,
+      "municipio": "Miches",
+      "provincia_id": 8,
+      "provincia": "El Seibo",
+      "distancia_km": 0.0,
+      "coordenadas": {
+        "lat": 18.9167,
+        "lng": -68.8167
+      }
+    },
+    {
+      "id": 28,
+      "nombre": "Santa Cruz del Seibo",
+      "municipio_id": 17,
+      "municipio": "Santa Cruz del Seibo",
+      "provincia_id": 8,
+      "provincia": "El Seibo",
+      "distancia_km": 0.0,
+      "coordenadas": {
+        "lat": 18.8281,
+        "lng": -69.0506
+      }
+    },
+    {
+      "id": 29,
+      "nombre": "Gaspar Hernández",
+      "municipio_id": 20,
+      "municipio": "Gaspar Hernández",
+      "provincia_id": 9,
+      "provincia": "Espaillat",
+      "distancia_km": 0.0,
+      "coordenadas": {
+        "lat": 19.5,
+        "lng": -70.5833
+      }
+    },
+    {
+      "id": 30,
+      "nombre": "Gastón",
+      "municipio_id": 20,
+      "municipio": "Gaspar Hernández",
+      "provincia_id": 9,
+      "provincia": "Espaillat",
+      "distancia_km": 8.5,
+      "coordenadas": {
+        "lat": 19.48,
+        "lng": -70.55
+      }
+    },
+    {
+      "id": 31,
+      "nombre": "El Valle",
+      "municipio_id": 22,
+      "municipio": "El Valle",
+      "provincia_id": 10,
+      "provincia": "Hato Mayor",
+      "distancia_km": 0.0,
+      "coordenadas": {
+        "lat": 18.9167,
+        "lng": -69.2333
+      }
+    },
+    {
+      "id": 32,
+      "nombre": "Sabana Grande de Yagüita",
+      "municipio_id": 21,
+      "municipio": "Hato Mayor del Rey",
+      "provincia_id": 10,
+      "provincia": "Hato Mayor",
+      "distancia_km": 12.8,
+      "coordenadas": {
+        "lat": 18.85,
+        "lng": -69.38
+      }
+    },
+    {
+      "id": 33,
+      "nombre": "Tenares",
+      "municipio_id": 24,
+      "municipio": "Tenares",
+      "provincia_id": 11,
+      "provincia": "Hermanas Mirabal",
+      "distancia_km": 0.0,
+      "coordenadas": {
+        "lat": 19.3833,
+        "lng": -70.3333
+      }
+    },
+    {
+      "id": 34,
+      "nombre": "Salcedo",
+      "municipio_id": 23,
+      "municipio": "Salcedo",
+      "provincia_id": 11,
+      "provincia": "Hermanas Mirabal",
+      "distancia_km": 5.8,
+      "coordenadas": {
+        "lat": 19.3167,
+        "lng": -70.3667
+      }
+    },
+    {
+      "id": 35,
+      "nombre": "Las Matas de Farfán",
+      "municipio_id": 25,
+      "municipio": "Las Matas de Farfán",
+      "provincia_id": 12,
+      "provincia": "Independencia",
+      "distancia_km": 0.0,
+      "coordenadas": {
+        "lat": 18.2333,
+        "lng": -72.1833
+      }
+    },
+    {
+      "id": 36,
+      "nombre": "Bellemar",
+      "municipio_id": 26,
+      "municipio": "Jimaní",
+      "provincia_id": 12,
+      "provincia": "Independencia",
+      "distancia_km": 8.2,
+      "coordenadas": {
+        "lat": 18.22,
+        "lng": -72.05
+      }
+    },
+    {
+      "id": 37,
+      "nombre": "Punta Cana",
+      "municipio_id": 27,
+      "municipio": "Higüey",
+      "provincia_id": 13,
+      "provincia": "La Altagracia",
+      "distancia_km": 45.0,
+      "coordenadas": {
+        "lat": 18.5333,
+        "lng": -68.3667
+      }
+    },
+    {
+      "id": 38,
+      "nombre": "Bávaro",
+      "municipio_id": 27,
+      "municipio": "Higüey",
+      "provincia_id": 13,
+      "provincia": "La Altagracia",
+      "distancia_km": 48.5,
+      "coordenadas": {
+        "lat": 18.6833,
+        "lng": -68.4167
+      }
+    },
+    {
+      "id": 39,
+      "nombre": "Cap Cana",
+      "municipio_id": 27,
+      "municipio": "Higüey",
+      "provincia_id": 13,
+      "provincia": "La Altagracia",
+      "distancia_km": 38.2,
+      "coordenadas": {
+        "lat": 18.4667,
+        "lng": -68.9667
+      }
+    },
+    {
+      "id": 40,
+      "nombre": "Juanillo",
+      "municipio_id": 27,
+      "municipio": "Higüey",
+      "provincia_id": 13,
+      "provincia": "La Altagracia",
+      "distancia_km": 52.0,
+      "coordenadas": {
+        "lat": 18.7,
+        "lng": -68.4333
+      }
+    },
+    {
+      "id": 41,
+      "nombre": "Uvero Alto",
+      "municipio_id": 27,
+      "municipio": "Higüey",
+      "provincia_id": 13,
+      "provincia": "La Altagracia",
+      "distancia_km": 58.3,
+      "coordenadas": {
+        "lat": 18.7833,
+        "lng": -68.45
+      }
+    },
+    {
+      "id": 42,
+      "nombre": "Macao",
+      "municipio_id": 27,
+      "municipio": "Higüey",
+      "provincia_id": 13,
+      "provincia": "La Altagracia",
+      "distancia_km": 50.1,
+      "coordenadas": {
+        "lat": 18.7167,
+        "lng": -68.4167
+      }
+    },
+    {
+      "id": 43,
+      "nombre": "Cabeza de Toro",
+      "municipio_id": 27,
+      "municipio": "Higüey",
+      "provincia_id": 13,
+      "provincia": "La Altagracia",
+      "distancia_km": 42.8,
+      "coordenadas": {
+        "lat": 18.7333,
+        "lng": -68.4167
+      }
+    },
+    {
+      "id": 44,
+      "nombre": "Verón",
+      "municipio_id": 27,
+      "municipio": "Higüey",
+      "provincia_id": 13,
+      "provincia": "La Altagracia",
+      "distancia_km": 40.5,
+      "coordenadas": {
+        "lat": 18.58,
+        "lng": -68.82
+      }
+    },
+    {
+      "id": 45,
+      "nombre": "Arena Gorda",
+      "municipio_id": 27,
+      "municipio": "Higüey",
+      "provincia_id": 13,
+      "provincia": "La Altagracia",
+      "distancia_km": 55.2,
+      "coordenadas": {
+        "lat": 18.75,
+        "lng": -68.4
+      }
+    },
+    {
+      "id": 46,
+      "nombre": "Cortecito",
+      "municipio_id": 27,
+      "municipio": "Higüey",
+      "provincia_id": 13,
+      "provincia": "La Altagracia",
+      "distancia_km": 47.8,
+      "coordenadas": {
+        "lat": 18.69,
+        "lng": -68.42
+      }
+    },
+    {
+      "id": 47,
+      "nombre": "Las Ballenas",
+      "municipio_id": 27,
+      "municipio": "Higüey",
+      "provincia_id": 13,
+      "provincia": "La Altagracia",
+      "distancia_km": 53.5,
+      "coordenadas": {
+        "lat": 18.72,
+        "lng": -68.39
+      }
+    },
+    {
+      "id": 48,
+      "nombre": "Río San Juan",
+      "municipio_id": 28,
+      "municipio": "Río San Juan",
+      "provincia_id": 13,
+      "provincia": "La Altagracia",
+      "distancia_km": 0.0,
+      "coordenadas": {
+        "lat": 18.9167,
+        "lng": -69.0167
+      }
+    },
+    {
+      "id": 49,
+      "nombre": "Casa de Campo",
+      "municipio_id": 29,
+      "municipio": "La Romana",
+      "provincia_id": 14,
+      "provincia": "La Romana",
+      "distancia_km": 12.5,
+      "coordenadas": {
+        "lat": 18.4,
+        "lng": -68.9167
+      }
+    },
+    {
+      "id": 50,
+      "nombre": "Bayahibe",
+      "municipio_id": 29,
+      "municipio": "La Romana",
+      "provincia_id": 14,
+      "provincia": "La Romana",
+      "distancia_km": 28.3,
+      "coordenadas": {
+        "lat": 18.35,
+        "lng": -68.9667
+      }
+    },
+    {
+      "id": 51,
+      "nombre": "Dominicus",
+      "municipio_id": 29,
+      "municipio": "La Romana",
+      "provincia_id": 14,
+      "provincia": "La Romana",
+      "distancia_km": 26.8,
+      "coordenadas": {
+        "lat": 18.3417,
+        "lng": -68.9667
+      }
+    },
+    {
+      "id": 52,
+      "nombre": "Guayacán",
+      "municipio_id": 30,
+      "municipio": "Guayacán",
+      "provincia_id": 14,
+      "provincia": "La Romana",
+      "distancia_km": 18.5,
+      "coordenadas": {
+        "lat": 18.5,
+        "lng": -68.9
+      }
+    },
+    {
+      "id": 53,
+      "nombre": "Río Blanco",
+      "municipio_id": 31,
+      "municipio": "Concepción de La Vega",
+      "provincia_id": 15,
+      "provincia": "La Vega",
+      "distancia_km": 8.9,
+      "coordenadas": {
+        "lat": 19.05,
+        "lng": -70.48
+      }
+    },
+    {
+      "id": 54,
+      "nombre": "Jarabacoa",
+      "municipio_id": 32,
+      "municipio": "Jarabacoa",
+      "provincia_id": 15,
+      "provincia": "La Vega",
+      "distancia_km": 35.2,
+      "coordenadas": {
+        "lat": 19.1333,
+        "lng": -70.7167
+      }
+    },
+    {
+      "id": 55,
+      "nombre": "Constanza",
+      "municipio_id": 33,
+      "municipio": "Constanza",
+      "provincia_id": 15,
+      "provincia": "La Vega",
+      "distancia_km": 52.8,
+      "coordenadas": {
+        "lat": 19.0833,
+        "lng": -70.8167
+      }
+    },
+    {
+      "id": 56,
+      "nombre": "San José de las Matas",
+      "municipio_id": 31,
+      "municipio": "Concepción de La Vega",
+      "provincia_id": 15,
+      "provincia": "La Vega",
+      "distancia_km": 48.5,
+      "coordenadas": {
+        "lat": 19.2,
+        "lng": -70.9
+      }
+    },
+    {
+      "id": 57,
+      "nombre": "Cabrera",
+      "municipio_id": 35,
+      "municipio": "Cabrera",
+      "provincia_id": 16,
+      "provincia": "María Trinidad Sánchez",
+      "distancia_km": 0.0,
+      "coordenadas": {
+        "lat": 19.4167,
+        "lng": -69.6333
+      }
+    },
+    {
+      "id": 58,
+      "nombre": "Las Tunas",
+      "municipio_id": 34,
+      "municipio": "Nagua",
+      "provincia_id": 16,
+      "provincia": "María Trinidad Sánchez",
+      "distancia_km": 12.5,
+      "coordenadas": {
+        "lat": 19.28,
+        "lng": -69.8
+      }
+    },
+    {
+      "id": 59,
+      "nombre": "Bonao",
+      "municipio_id": 36,
+      "municipio": "Bonao",
+      "provincia_id": 17,
+      "provincia": "Monseñor Nouel",
+      "distancia_km": 0.0,
+      "coordenadas": {
+        "lat": 18.9333,
+        "lng": -70.4667
+      }
+    },
+    {
+      "id": 60,
+      "nombre": "Piedra Blanca",
+      "municipio_id": 37,
+      "municipio": "Villa Altagracia",
+      "provincia_id": 17,
+      "provincia": "Monseñor Nouel",
+      "distancia_km": 15.2,
+      "coordenadas": {
+        "lat": 18.88,
+        "lng": -70.42
+      }
+    },
+    {
+      "id": 61,
+      "nombre": "Las Guáranas",
+      "municipio_id": 38,
+      "municipio": "Monte Cristi",
+      "provincia_id": 18,
+      "provincia": "Monte Cristi",
+      "distancia_km": 18.5,
+      "coordenadas": {
+        "lat": 19.58,
+        "lng": -70.75
+      }
+    },
+    {
+      "id": 62,
+      "nombre": "Guayabal",
+      "municipio_id": 39,
+      "municipio": "Guayubín",
+      "provincia_id": 18,
+      "provincia": "Monte Cristi",
+      "distancia_km": 25.8,
+      "coordenadas": {
+        "lat": 19.5833,
+        "lng": -71.35
+      }
+    },
+    {
+      "id": 63,
+      "nombre": "Yamasá",
+      "municipio_id": 41,
+      "municipio": "Yamasá",
+      "provincia_id": 19,
+      "provincia": "Monte Plata",
+      "distancia_km": 0.0,
+      "coordenadas": {
+        "lat": 18.6833,
+        "lng": -69.8333
+      }
+    },
+    {
+      "id": 64,
+      "nombre": "Chimán",
+      "municipio_id": 40,
+      "municipio": "Monte Plata",
+      "provincia_id": 19,
+      "provincia": "Monte Plata",
+      "distancia_km": 8.2,
+      "coordenadas": {
+        "lat": 18.75,
+        "lng": -69.7
+      }
+    },
+    {
+      "id": 65,
+      "nombre": "Oviedo",
+      "municipio_id": 43,
+      "municipio": "Oviedo",
+      "provincia_id": 20,
+      "provincia": "Pedernales",
+      "distancia_km": 0.0,
+      "coordenadas": {
+        "lat": 18.15,
+        "lng": -71.55
+      }
+    },
+    {
+      "id": 66,
+      "nombre": "Las Salinas",
+      "municipio_id": 42,
+      "municipio": "Pedernales",
+      "provincia_id": 20,
+      "provincia": "Pedernales",
+      "distancia_km": 12.8,
+      "coordenadas": {
+        "lat": 18.12,
+        "lng": -71.68
+      }
+    },
+    {
+      "id": 67,
+      "nombre": "Nizao",
+      "municipio_id": 45,
+      "municipio": "Nizao",
+      "provincia_id": 21,
+      "provincia": "Peravia",
+      "distancia_km": 0.0,
+      "coordenadas": {
+        "lat": 18.5167,
+        "lng": -70.3667
+      }
+    },
+    {
+      "id": 68,
+      "nombre": "Las Caobas",
+      "municipio_id": 44,
+      "municipio": "Baní",
+      "provincia_id": 21,
+      "provincia": "Peravia",
+      "distancia_km": 18.2,
+      "coordenadas": {
+        "lat": 18.42,
+        "lng": -70.45
+      }
+    },
+    {
+      "id": 69,
+      "nombre": "Villa Montellano",
+      "municipio_id": 46,
+      "municipio": "Puerto Plata",
+      "provincia_id": 22,
+      "provincia": "Puerto Plata",
+      "distancia_km": 12.5,
+      "coordenadas": {
+        "lat": 19.75,
+        "lng": -70.75
+      }
+    },
+    {
+      "id": 70,
+      "nombre": "Imbert",
+      "municipio_id": 47,
+      "municipio": "Sosúa",
+      "provincia_id": 22,
+      "provincia": "Puerto Plata",
+      "distancia_km": 8.8,
+      "coordenadas": {
+        "lat": 19.78,
+        "lng": -70.58
+      }
+    },
+    {
+      "id": 71,
+      "nombre": "Los Hidalgos",
+      "municipio_id": 46,
+      "municipio": "Puerto Plata",
+      "provincia_id": 22,
+      "provincia": "Puerto Plata",
+      "distancia_km": 15.2,
+      "coordenadas": {
+        "lat": 19.82,
+        "lng": -70.72
+      }
+    },
+    {
+      "id": 72,
+      "nombre": "Altamira",
+      "municipio_id": 46,
+      "municipio": "Puerto Plata",
+      "provincia_id": 22,
+      "provincia": "Puerto Plata",
+      "distancia_km": 18.5,
+      "coordenadas": {
+        "lat": 19.72,
+        "lng": -70.62
+      }
+    },
+    {
+      "id": 73,
+      "nombre": "Santa Bárbara",
+      "municipio_id": 50,
+      "municipio": "Santa Bárbara de Samaná",
+      "provincia_id": 23,
+      "provincia": "Samaná",
+      "distancia_km": 0.0,
+      "coordenadas": {
+        "lat": 19.25,
+        "lng": -69.3333
+      }
+    },
+    {
+      "id": 74,
+      "nombre": "El Catey",
+      "municipio_id": 49,
+      "municipio": "Sánchez",
+      "provincia_id": 23,
+      "provincia": "Samaná",
+      "distancia_km": 18.5,
+      "coordenadas": {
+        "lat": 19.2833,
+        "lng": -69.7667
+      }
+    },
+    {
+      "id": 75,
+      "nombre": "Las Galeras",
+      "municipio_id": 50,
+      "municipio": "Santa Bárbara de Samaná",
+      "provincia_id": 23,
+      "provincia": "Samaná",
+      "distancia_km": 22.3,
+      "coordenadas": {
+        "lat": 19.2167,
+        "lng": -69.2
+      }
+    },
+    {
+      "id": 76,
+      "nombre": "Cayo Levantado",
+      "municipio_id": 50,
+      "municipio": "Santa Bárbara de Samaná",
+      "provincia_id": 23,
+      "provincia": "Samaná",
+      "distancia_km": 25.8,
+      "coordenadas": {
+        "lat": 19.2333,
+        "lng": -69.1833
+      }
+    },
+    {
+      "id": 77,
+      "nombre": "El Progreso",
+      "municipio_id": 50,
+      "municipio": "Santa Bárbara de Samaná",
+      "provincia_id": 23,
+      "provincia": "Samaná",
+      "distancia_km": 8.5,
+      "coordenadas": {
+        "lat": 19.28,
+        "lng": -69.38
+      }
+    },
+    {
+      "id": 78,
+      "nombre": "Tamboril",
+      "municipio_id": 61,
+      "municipio": "Santiago de los Caballeros",
+      "provincia_id": 29,
+      "provincia": "Santiago",
+      "distancia_km": 8.5,
+      "coordenadas": {
+        "lat": 19.52,
+        "lng": -70.68
+      }
+    },
+    {
+      "id": 79,
+      "nombre": "Luperón",
+      "municipio_id": 61,
+      "municipio": "Santiago de los Caballeros",
+      "provincia_id": 29,
+      "provincia": "Santiago",
+      "distancia_km": 15.2,
+      "coordenadas": {
+        "lat": 19.48,
+        "lng": -70.82
+      }
+    },
+    {
+      "id": 80,
+      "nombre": "Jánico",
+      "municipio_id": 61,
+      "municipio": "Santiago de los Caballeros",
+      "provincia_id": 29,
+      "provincia": "Santiago",
+      "distancia_km": 18.8,
+      "coordenadas": {
+        "lat": 19.55,
+        "lng": -70.62
+      }
+    },
+    {
+      "id": 81,
+      "nombre": "Cienegueta",
+      "municipio_id": 61,
+      "municipio": "Santiago de los Caballeros",
+      "provincia_id": 29,
+      "provincia": "Santiago",
+      "distancia_km": 12.5,
+      "coordenadas": {
+        "lat": 19.42,
+        "lng": -70.78
+      }
+    },
+    {
+      "id": 82,
+      "nombre": "Sabaneta",
+      "municipio_id": 64,
+      "municipio": "San Ignacio de Sabaneta",
+      "provincia_id": 30,
+      "provincia": "Santiago Rodríguez",
+      "distancia_km": 0.0,
+      "coordenadas": {
+        "lat": 19.5,
+        "lng": -71.3333
+      }
+    },
+    {
+      "id": 83,
+      "nombre": "Monción",
+      "municipio_id": 65,
+      "municipio": "Monción",
+      "provincia_id": 30,
+      "provincia": "Santiago Rodríguez",
+      "distancia_km": 12.8,
+      "coordenadas": {
+        "lat": 19.4333,
+        "lng": -71.2333
+      }
+    },
+    {
+      "id": 84,
+      "nombre": "Tres Cruces",
+      "municipio_id": 64,
+      "municipio": "San Ignacio de Sabaneta",
+      "provincia_id": 30,
+      "provincia": "Santiago Rodríguez",
+      "distancia_km": 8.2,
+      "coordenadas": {
+        "lat": 19.52,
+        "lng": -71.38
+      }
+    },
+    {
+      "id": 85,
+      "nombre": "Fantino",
+      "municipio_id": 60,
+      "municipio": "Fantino",
+      "provincia_id": 28,
+      "provincia": "Sánchez Ramírez",
+      "distancia_km": 0.0,
+      "coordenadas": {
+        "lat": 18.95,
+        "lng": -70.0167
+      }
+    },
+    {
+      "id": 86,
+      "nombre": "La Vega Vieja",
+      "municipio_id": 59,
+      "municipio": "Cotuí",
+      "provincia_id": 28,
+      "provincia": "Sánchez Ramírez",
+      "distancia_km": 15.8,
+      "coordenadas": {
+        "lat": 19.02,
+        "lng": -70.15
+      }
+    },
+    {
+      "id": 87,
+      "nombre": "Rancho Arriba",
+      "municipio_id": 54,
+      "municipio": "Rancho Arriba",
+      "provincia_id": 25,
+      "provincia": "San José de Ocoa",
+      "distancia_km": 0.0,
+      "coordenadas": {
+        "lat": 18.7167,
+        "lng": -70.6
+      }
+    },
+    {
+      "id": 88,
+      "nombre": "Palo Hincado",
+      "municipio_id": 53,
+      "municipio": "San José de Ocoa",
+      "provincia_id": 25,
+      "provincia": "San José de Ocoa",
+      "distancia_km": 12.5,
+      "coordenadas": {
+        "lat": 18.68,
+        "lng": -70.58
+      }
+    },
+    {
+      "id": 89,
+      "nombre": "Guanajayabo",
+      "municipio_id": 55,
+      "municipio": "San Juan de la Maguana",
+      "provincia_id": 26,
+      "provincia": "San Juan",
+      "distancia_km": 8.2,
+      "coordenadas": {
+        "lat": 18.72,
+        "lng": -71.25
+      }
+    },
+    {
+      "id": 90,
+      "nombre": "El Llano",
+      "municipio_id": 56,
+      "municipio": "Elías Piña",
+      "provincia_id": 26,
+      "provincia": "San Juan",
+      "distancia_km": 15.5,
+      "coordenadas": {
+        "lat": 18.65,
+        "lng": -71.32
+      }
+    },
+    {
+      "id": 91,
+      "nombre": "Galván",
+      "municipio_id": 55,
+      "municipio": "San Juan de la Maguana",
+      "provincia_id": 26,
+      "provincia": "San Juan",
+      "distancia_km": 18.8,
+      "coordenadas": {
+        "lat": 18.68,
+        "lng": -71.18
+      }
+    },
+    {
+      "id": 92,
+      "nombre": "Guayabal",
+      "municipio_id": 58,
+      "municipio": "Guayabal",
+      "provincia_id": 27,
+      "provincia": "San Pedro de Macorís",
+      "distancia_km": 0.0,
+      "coordenadas": {
+        "lat": 18.5333,
+        "lng": -69.2833
+      }
+    },
+    {
+      "id": 93,
+      "nombre": "Quisqueya",
+      "municipio_id": 57,
+      "municipio": "San Pedro de Macorís",
+      "provincia_id": 27,
+      "provincia": "San Pedro de Macorís",
+      "distancia_km": 12.5,
+      "coordenadas": {
+        "lat": 18.42,
+        "lng": -69.42
+      }
+    },
+    {
+      "id": 94,
+      "nombre": "Llanos de Espumillón",
+      "municipio_id": 69,
+      "municipio": "Mao",
+      "provincia_id": 32,
+      "provincia": "Valverde",
+      "distancia_km": 8.5,
+      "coordenadas": {
+        "lat": 19.55,
+        "lng": -71.15
+      }
+    },
+    {
+      "id": 95,
+      "nombre": "Malpaso",
+      "municipio_id": 70,
+      "municipio": "Laguna Salada",
+      "provincia_id": 32,
+      "provincia": "Valverde",
+      "distancia_km": 15.2,
+      "coordenadas": {
+        "lat": 19.62,
+        "lng": -71.05
+      }
+    }
+  ]
+}
