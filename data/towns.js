@@ -25,37 +25,56 @@ const towns = [
   { id: 13, nombre: 'Río Blanco', municipio_id: 31, municipio: 'Concepción de La Vega', provincia_id: 15, provincia: 'La Vega', distancia_km: 8.9, coordenadas: { lat: 19.0500, lng: -70.4800 } },
   { id: 14, nombre: 'La Ciénaga', municipio_id: 31, municipio: 'Concepción de La Vega', provincia_id: 15, provincia: 'La Vega', distancia_km: 12.4, coordenadas: { lat: 18.9500, lng: -70.5800 } },
   
-  // Zonas aledanas a Higüey
+  // Zonas aledanas a Higüey (Punta Cana, Bavaro, etc.)
   { id: 15, nombre: 'Boca de Yuma', municipio_id: 27, municipio: 'Higüey', provincia_id: 13, provincia: 'La Altagracia', distancia_km: 22.6, coordenadas: { lat: 18.7200, lng: -68.4500 } },
   { id: 16, nombre: 'Playa Blanca', municipio_id: 27, municipio: 'Higüey', provincia_id: 13, provincia: 'La Altagracia', distancia_km: 18.3, coordenadas: { lat: 18.9000, lng: -68.6000 } },
+  { id: 17, nombre: 'Punta Cana', municipio_id: 27, municipio: 'Higüey', provincia_id: 13, provincia: 'La Altagracia', distancia_km: 45.0, coordenadas: { lat: 18.5333, lng: -68.3667 } },
+  { id: 18, nombre: 'Bavaro', municipio_id: 27, municipio: 'Higüey', provincia_id: 13, provincia: 'La Altagracia', distancia_km: 48.5, coordenadas: { lat: 18.6833, lng: -68.4167 } },
+  { id: 19, nombre: 'Cap Cana', municipio_id: 27, municipio: 'Higüey', provincia_id: 13, provincia: 'La Altagracia', distancia_km: 38.2, coordenadas: { lat: 18.4667, lng: -68.9667 } },
+  { id: 20, nombre: 'Juanillo', municipio_id: 27, municipio: 'Higüey', provincia_id: 13, provincia: 'La Altagracia', distancia_km: 52.0, coordenadas: { lat: 18.7000, lng: -68.4333 } },
+  { id: 21, nombre: 'Uvero Alto', municipio_id: 27, municipio: 'Higüey', provincia_id: 13, provincia: 'La Altagracia', distancia_km: 58.3, coordenadas: { lat: 18.7833, lng: -68.4500 } },
+  { id: 22, nombre: 'Macao', municipio_id: 27, municipio: 'Higüey', provincia_id: 13, provincia: 'La Altagracia', distancia_km: 50.1, coordenadas: { lat: 18.7167, lng: -68.4167 } },
+  { id: 23, nombre: 'Cabeza de Toro', municipio_id: 27, municipio: 'Higüey', provincia_id: 13, provincia: 'La Altagracia', distancia_km: 42.8, coordenadas: { lat: 18.7333, lng: -68.4167 } },
   
   // Zonas aledanas a Baní
-  { id: 17, nombre: 'La Palma', municipio_id: 44, municipio: 'Baní', provincia_id: 21, provincia: 'Peravia', distancia_km: 10.5, coordenadas: { lat: 18.4000, lng: -70.4000 } },
-  { id: 18, nombre: 'Sabana Grande', municipio_id: 44, municipio: 'Baní', provincia_id: 21, provincia: 'Peravia', distancia_km: 15.8, coordenadas: { lat: 18.5000, lng: -70.4500 } },
+  { id: 24, nombre: 'La Palma', municipio_id: 44, municipio: 'Baní', provincia_id: 21, provincia: 'Peravia', distancia_km: 10.5, coordenadas: { lat: 18.4000, lng: -70.4000 } },
+  { id: 25, nombre: 'Sabana Grande', municipio_id: 44, municipio: 'Baní', provincia_id: 21, provincia: 'Peravia', distancia_km: 15.8, coordenadas: { lat: 18.5000, lng: -70.4500 } },
   
   // Zonas aledanas a San Francisco de Macorís
-  { id: 19, nombre: 'Galbán', municipio_id: 12, municipio: 'San Francisco de Macorís', provincia_id: 6, provincia: 'Duarte', distancia_km: 7.2, coordenadas: { lat: 19.3000, lng: -70.2000 } },
-  { id: 20, nombre: 'Guayubín', municipio_id: 12, municipio: 'San Francisco de Macorís', provincia_id: 6, provincia: 'Duarte', distancia_km: 11.8, coordenadas: { lat: 19.4000, lng: -70.3000 } },
+  { id: 26, nombre: 'Galbán', municipio_id: 12, municipio: 'San Francisco de Macorís', provincia_id: 6, provincia: 'Duarte', distancia_km: 7.2, coordenadas: { lat: 19.3000, lng: -70.2000 } },
+  { id: 27, nombre: 'Guayubín', municipio_id: 12, municipio: 'San Francisco de Macorís', provincia_id: 6, provincia: 'Duarte', distancia_km: 11.8, coordenadas: { lat: 19.4000, lng: -70.3000 } },
   
-  // Zonas aledanas a La Romana
-  { id: 21, nombre: 'Playa Grande', municipio_id: 29, municipio: 'La Romana', provincia_id: 14, provincia: 'La Romana', distancia_km: 16.4, coordenadas: { lat: 18.3800, lng: -68.9200 } },
-  { id: 22, nombre: 'Bellavista', municipio_id: 29, municipio: 'La Romana', provincia_id: 14, provincia: 'La Romana', distancia_km: 9.7, coordenadas: { lat: 18.4800, lng: -68.9000 } },
+  // Zonas aledanas a La Romana (Casa de Campo, Bayahibe, etc.)
+  { id: 28, nombre: 'Playa Grande', municipio_id: 29, municipio: 'La Romana', provincia_id: 14, provincia: 'La Romana', distancia_km: 16.4, coordenadas: { lat: 18.3833, lng: -68.9200 } },
+  { id: 29, nombre: 'Bellavista', municipio_id: 29, municipio: 'La Romana', provincia_id: 14, provincia: 'La Romana', distancia_km: 9.7, coordenadas: { lat: 18.4800, lng: -68.9000 } },
+  { id: 30, nombre: 'Casa de Campo', municipio_id: 29, municipio: 'La Romana', provincia_id: 14, provincia: 'La Romana', distancia_km: 12.5, coordenadas: { lat: 18.4000, lng: -68.9167 } },
+  { id: 31, nombre: 'Bayahibe', municipio_id: 29, municipio: 'La Romana', provincia_id: 14, provincia: 'La Romana', distancia_km: 28.3, coordenadas: { lat: 18.3500, lng: -68.9667 } },
+  { id: 32, nombre: 'Dominicus', municipio_id: 29, municipio: 'La Romana', provincia_id: 14, provincia: 'La Romana', distancia_km: 26.8, coordenadas: { lat: 18.3417, lng: -68.9667 } },
   
   // Zonas aledanas a Barahona
-  { id: 23, nombre: 'Enriquillo', municipio_id: 8, municipio: 'Santa Cruz de Barahona', provincia_id: 4, provincia: 'Barahona', distancia_km: 6.5, coordenadas: { lat: 18.1600, lng: -71.1500 } },
-  { id: 24, nombre: 'Honduras', municipio_id: 8, municipio: 'Santa Cruz de Barahona', provincia_id: 4, provincia: 'Barahona', distancia_km: 10.2, coordenadas: { lat: 18.2500, lng: -71.0500 } },
+  { id: 33, nombre: 'Enriquillo', municipio_id: 8, municipio: 'Santa Cruz de Barahona', provincia_id: 4, provincia: 'Barahona', distancia_km: 6.5, coordenadas: { lat: 18.1600, lng: -71.1500 } },
+  { id: 34, nombre: 'Honduras', municipio_id: 8, municipio: 'Santa Cruz de Barahona', provincia_id: 4, provincia: 'Barahona', distancia_km: 10.2, coordenadas: { lat: 18.2500, lng: -71.0500 } },
   
   // Zonas aledanas a Moca
-  { id: 25, nombre: 'Guayacanes', municipio_id: 19, municipio: 'Moca', provincia_id: 9, provincia: 'Espaillat', distancia_km: 5.8, coordenadas: { lat: 19.4200, lng: -70.5000 } },
-  { id: 26, nombre: 'Pozón', municipio_id: 19, municipio: 'Moca', provincia_id: 9, provincia: 'Espaillat', distancia_km: 8.3, coordenadas: { lat: 19.3500, lng: -70.4800 } },
+  { id: 35, nombre: 'Guayacanes', municipio_id: 19, municipio: 'Moca', provincia_id: 9, provincia: 'Espaillat', distancia_km: 5.8, coordenadas: { lat: 19.4200, lng: -70.5000 } },
+  { id: 36, nombre: 'Pozón', municipio_id: 19, municipio: 'Moca', provincia_id: 9, provincia: 'Espaillat', distancia_km: 8.3, coordenadas: { lat: 19.3500, lng: -70.4800 } },
   
   // Zonas aledanas a Cotuí
-  { id: 27, nombre: 'Félix Pérez Jiménez', municipio_id: 59, municipio: 'Cotuí', provincia_id: 28, provincia: 'Sánchez Ramírez', distancia_km: 7.4, coordenadas: { lat: 18.9600, lng: -70.1800 } },
-  { id: 28, nombre: 'El Castillo', municipio_id: 59, municipio: 'Cotuí', provincia_id: 28, provincia: 'Sánchez Ramírez', distancia_km: 12.6, coordenadas: { lat: 19.0400, lng: -70.0800 } },
+  { id: 37, nombre: 'Félix Pérez Jiménez', municipio_id: 59, municipio: 'Cotuí', provincia_id: 28, provincia: 'Sánchez Ramírez', distancia_km: 7.4, coordenadas: { lat: 18.9600, lng: -70.1800 } },
+  { id: 38, nombre: 'El Castillo', municipio_id: 59, municipio: 'Cotuí', provincia_id: 28, provincia: 'Sánchez Ramírez', distancia_km: 12.6, coordenadas: { lat: 19.0400, lng: -70.0800 } },
   
   // Zonas aledanas a Mao
-  { id: 29, nombre: 'Guayabal', municipio_id: 69, municipio: 'Mao', provincia_id: 32, provincia: 'Valverde', distancia_km: 9.1, coordenadas: { lat: 19.6000, lng: -71.0800 } },
-  { id: 30, nombre: 'Los Pinos', municipio_id: 69, municipio: 'Mao', provincia_id: 32, provincia: 'Valverde', distancia_km: 14.7, coordenadas: { lat: 19.5200, lng: -71.2000 } }
+  { id: 39, nombre: 'Guayabal', municipio_id: 69, municipio: 'Mao', provincia_id: 32, provincia: 'Valverde', distancia_km: 9.1, coordenadas: { lat: 19.6000, lng: -71.0800 } },
+  { id: 40, nombre: 'Los Pinos', municipio_id: 69, municipio: 'Mao', provincia_id: 32, provincia: 'Valverde', distancia_km: 14.7, coordenadas: { lat: 19.5200, lng: -71.2000 } },
+  
+  // Zonas aledanas a Santa Bárbara de Samaná
+  { id: 41, nombre: 'Santa Bárbara', municipio_id: 50, municipio: 'Santa Bárbara de Samaná', provincia_id: 23, provincia: 'Samaná', distancia_km: 0.0, coordenadas: { lat: 19.2500, lng: -69.3333 } },
+  { id: 42, nombre: 'El Catey', municipio_id: 49, municipio: 'Sánchez', provincia_id: 23, provincia: 'Samaná', distancia_km: 18.5, coordenadas: { lat: 19.2833, lng: -69.7667 } },
+  { id: 43, nombre: 'Las Galeras', municipio_id: 50, municipio: 'Santa Bárbara de Samaná', provincia_id: 23, provincia: 'Samaná', distancia_km: 22.3, coordenadas: { lat: 19.2167, lng: -69.2000 } },
+  { id: 44, nombre: 'Cayo Levantado', municipio_id: 50, municipio: 'Santa Bárbara de Samaná', provincia_id: 23, provincia: 'Samaná', distancia_km: 25.8, coordenadas: { lat: 19.2333, lng: -69.1833 } },
+  
+  // Zonas aledanas a Río San Juan
+  { id: 45, nombre: 'Río San Juan', municipio_id: 28, municipio: 'Río San Juan', provincia_id: 13, provincia: 'La Altagracia', distancia_km: 0.0, coordenadas: { lat: 18.9167, lng: -69.0167 } }
 ];
 
 module.exports = towns;
